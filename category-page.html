@@ -22,7 +22,7 @@
             <li class="header-nav-item">
                 <a class="header-nav-link" href="/" aria-label="open categories of shop">Shop</a>
                 <svg class="header-shop-icon" width="12" height="7">
-                    <use href="/SHOP.CO/assets/icons-5cOdakSa.svg#icon-down-arrow"></use>
+                    <use href="/SHOP.CO/assets/icons-DgCK1EAb.svg#icon-down-arrow"></use>
                 </svg>
             </li>
             <li class="header-nav-item">
@@ -40,23 +40,483 @@
         <label class="header-search-label">
             <button class="header-search-btn" type="submit">
                 <svg class="header-search-icon" width="22" height="22">
-                    <use href="/SHOP.CO/assets/icons-5cOdakSa.svg#icon-loop"></use>
+                    <use href="/SHOP.CO/assets/icons-DgCK1EAb.svg#icon-loop"></use>
                 </svg>
             </button>
             <input class="header-search-input" type="text" placeholder="Search for products..."
                 name="searchField" /></label>
     </form>
     <svg class="header-cart-icon" width="22" height="22">
-        <use href="/SHOP.CO/assets/icons-5cOdakSa.svg#icon-cart"></use>
+        <use href="/SHOP.CO/assets/icons-DgCK1EAb.svg#icon-cart"></use>
     </svg>
     <svg class="header-user-icon" width="22" height="22">
-        <use href="/SHOP.CO/assets/icons-5cOdakSa.svg#icon-user"></use>
+        <use href="/SHOP.CO/assets/icons-DgCK1EAb.svg#icon-user"></use>
     </svg>
 </header>
 
     <main>
-      
-      
+      <section class="category">
+    <div class="container">
+        <div class="category-links">
+            <a href="" class="category-link" aria-label="Home">Home</a>
+            <svg class="products-link-svg" width="6.5" height="11.5">
+                <use href="/SHOP.CO/assets/icons-DgCK1EAb.svg#icon-arrow-right-links"></use>
+            </svg><a href="" class="category-link" aria-label="Casual">Casual</a>
+        </div>
+
+        <aside class="category-aside">
+    <form class="category-form">
+        <div class="category-form-box">
+            <p class="category-form-head">Filters</p><button type="button"><svg class="products-settings-icon"
+                    width="20" height="19">
+                    <use href="/SHOP.CO/assets/icons-DgCK1EAb.svg#icon-settings"></use>
+                </svg></button>
+        </div>
+        <div class="category-form-box">
+            <ul class="category-form-ul">
+                <li class="category-form-li"><a href="" class="category-li-link">T-shirts</a><button
+                        type="button"><svg class="category-li-btn" width="6.5" height="11.5">
+                            <use href="/SHOP.CO/assets/icons-DgCK1EAb.svg#icon-arrow-right-links"></use>
+                        </svg></button></li>
+                <li class="category-form-li"><a href="" class="category-li-link">Shorts</a><button
+                        type="button"><svg class="category-li-btn" width="6.5" height="11.5">
+                            <use href="/SHOP.CO/assets/icons-DgCK1EAb.svg#icon-arrow-right-links"></use>
+                        </svg></button></li>
+                <li class="category-form-li"><a href="" class="category-li-link">Shirts</a><button
+                        type="button"><svg class="category-li-btn" width="6.5" height="11.5">
+                            <use href="/SHOP.CO/assets/icons-DgCK1EAb.svg#icon-arrow-right-links"></use>
+                        </svg></button></li>
+                <li class="category-form-li"><a href="" class="category-li-link">Hoodie</a><button
+                        type="button"><svg class="category-li-btn" width="6.5" height="11.5">
+                            <use href="/SHOP.CO/assets/icons-DgCK1EAb.svg#icon-arrow-right-links"></use>
+                        </svg></button></li>
+                <li class="category-form-li"><a href="" class="category-li-link">Jeans</a><button
+                        type="button"><svg class="category-li-btn" width="6.5" height="11.5">
+                            <use href="/SHOP.CO/assets/icons-DgCK1EAb.svg#icon-arrow-right-links"></use>
+                        </svg></button></li>
+        </div>
+        </ul>
+        <fieldset class="category-form-box">
+            <legend class="category-form-legend">
+                <p class="category-form-title">Price</p>
+                <button class="category-form-arrow-btn" type="button">
+                    <svg class="products-link-svg" width="11.5" height="6.5">
+                        <use href="/SHOP.CO/assets/icons-DgCK1EAb.svg#icon-up-arrow"></use>
+                    </svg>
+                </button>
+            </legend>
+            <input class="category-form-price-max" type="range" name="minPrice" min="0" max="1000" value="200"
+            step="10"><span id="priceMin">$50</span>
+            <input class="category-form-price-min" type="range" name="maxPrice" min="0" max="1000" value="800"
+                step="10"><span id="priceMax">$200</span>
+        </fieldset>
+        <fieldset class="category-form-box">
+            <legend class="category-form-legend">
+                <p class="category-form-title">Colors</p>
+                <button class="category-form-arrow-btn" type="button">
+                    <svg class="products-link-svg" width="11.5" height="6.5">
+                        <use href="/SHOP.CO/assets/icons-DgCK1EAb.svg#icon-up-arrow"></use>
+                    </svg>
+                </button>
+            </legend>
+            <input class="category-form-color" type="radio" name="color" value="green" />
+            <input class="category-form-color" type="radio" name="color" value="red" />
+            <input class="category-form-color" type="radio" name="color" value="yellow" />
+            <input class="category-form-color" type="radio" name="color" value="orange" />
+            <input class="category-form-color" type="radio" name="color" value="cyan" />
+            <input class="category-form-color" type="radio" name="color" value="blue" />
+            <input class="category-form-color" type="radio" name="color" value="purple" />
+            <input class="category-form-color" type="radio" name="color" value="pink" />
+            <input class="category-form-color" type="radio" name="color" value="white" />
+            <input class="category-form-color" type="radio" name="color" value="black" />
+        </fieldset>
+        <fieldset class="category-form-box">
+            <legend class="category-form-legend">
+                <p class="category-form-title">Size</p>
+                <button class="category-form-arrow-btn" type="button">
+                    <svg class="products-link-svg" width="11.5" height="6.5">
+                        <use href="/SHOP.CO/assets/icons-DgCK1EAb.svg#icon-up-arrow"></use>
+                    </svg>
+                </button>
+            </legend>
+            <label>
+                <input type="radio" name="size" value="xxs" />
+                XX-Small
+            </label>
+            <label>
+                <input type="radio" name="size" value="xs" />
+                X-Small
+            </label>
+            <label>
+                <input type="radio" name="size" value="s" checked />
+                Small
+            </label>
+            <label>
+                <input type="radio" name="size" value="m" />
+                Medium
+            </label>
+            <label>
+                <input type="radio" name="size" value="l" />
+                Large
+            </label>
+            <label>
+                <input type="radio" name="size" value="xl" checked />
+                X-Large
+            </label>
+            <label>
+                <input type="radio" name="size" value="xxl" />
+                XX-Large
+            </label>
+            <label>
+                <input type="radio" name="size" value="3xl" />
+                3X-Large
+            </label>
+            <label>
+                <input type="radio" name="size" value="4xl" checked />
+                4X-Large
+            </label>
+        </fieldset>
+        <div class="category-form-box">
+            <div class="category-form-legend">
+                <p class="category-form-title">Dress Style</p>
+                <button class="category-form-arrow-btn" type="button">
+                    <svg class="products-link-svg" width="11.5" height="6.5">
+                        <use href="/SHOP.CO/assets/icons-DgCK1EAb.svg#icon-up-arrow"></use>
+                    </svg>
+                </button>
+            </div>
+            <ul class="category-form-ul">
+                <li class="category-form-li"><a href="" class="category-li-link">Casual</a><button
+                        type="button"><svg class="category-li-btn" width="6.5" height="11.5">
+                            <use href="/SHOP.CO/assets/icons-DgCK1EAb.svg#icon-arrow-right-links"></use>
+                        </svg></button></li>
+                <li class="category-form-li"><a href="" class="category-li-link">Formal</a><button
+                        type="button"><svg class="category-li-btn" width="6.5" height="11.5">
+                            <use href="/SHOP.CO/assets/icons-DgCK1EAb.svg#icon-arrow-right-links"></use>
+                        </svg></button></li>
+                <li class="category-form-li"><a href="" class="category-li-link">Party</a><button
+                        type="button"><svg class="category-li-btn" width="6.5" height="11.5">
+                            <use href="/SHOP.CO/assets/icons-DgCK1EAb.svg#icon-arrow-right-links"></use>
+                        </svg></button></li>
+                <li class="category-form-li"><a href="" class="category-li-link">Gym</a><button
+                        type="button"><svg class="category-li-btn" width="6.5" height="11.5">
+                            <use href="/SHOP.CO/assets/icons-DgCK1EAb.svg#icon-arrow-right-links"></use>
+                        </svg></button></li>
+            </ul>
+        </div>
+        <button type="submit">Apply Filter</button>
+    </form>
+</aside>
+        
+        <div class="category-productss">
+            <div class="category-productss-head">
+                <h2 class="category-productss-title">Casual</h2>
+                <div class="category-productss-title-info-box">
+                    <p class="category-productss-title-count">Showing 1-10 of 100 Products</p>
+                    <form class="category-head-form">
+                        <label for="category-head-sort">Sort by:</label>
+                        <select id="category-head-sort" name="category">
+                            <option value="popular">Most Popular</option>
+                            <option value="price">Price</option>
+                            <option value="rating">Rating</option>
+                            <option value="name">Name</option>
+                        </select>
+                    </form>
+                </div>
+            </div>
+            <div class="category-productss-body">
+                <ul class="category-productss-body-ul">
+                    <li class="category-productss-body-li">
+                        <img class="category-products-img" src="" alt="" width="295px" height="298px">
+                        <a href="" class="category-products-link" aria-label="Gradient Graphic T-shirt">Gradient Graphic
+                            T-shirt</a>
+                        <div class="category-products-description-grade">
+                            <svg class="category-products-grade-star" width="18.5" height="18.5">
+                                <use href="/SHOP.CO/assets/icons-DgCK1EAb.svg#icon-grade-star"></use>
+                            </svg>
+                            <svg class="category-products-grade-star" width="18.5" height="18.5">
+                                <use href="/SHOP.CO/assets/icons-DgCK1EAb.svg#icon-grade-star"></use>
+                            </svg>
+                            <svg class="category-products-grade-star" width="18.5" height="18.5">
+                                <use href="/SHOP.CO/assets/icons-DgCK1EAb.svg#icon-grade-star"></use>
+                            </svg>
+                            <svg class="category-products-grade-star" width="18.5" height="18.5">
+                                <use href="/SHOP.CO/assets/icons-DgCK1EAb.svg#icon-grade-star"></use>
+                            </svg>
+                            <svg class="category-products-grade-star" width="18.5" height="18.5">
+                                <use href="/SHOP.CO/assets/icons-DgCK1EAb.svg#icon-grade-star"></use>
+                            </svg>
+                            <p class="category-products-grade-number">
+                                3.5/<span class="category-products-grade-number-grey">5</span>
+                            </p>
+                        </div>
+                        <div class="category-products-description-price">
+                            <p class="category-products-description-price-current">$145</p>
+                            <p class="category-products-description-price-old" hidden></p>
+                            <span class="category-products-description-price-sale" hidden></span>
+                        </div>
+                    </li>
+                    <li class="category-productss-body-li">
+                        <img class="category-products-img" src="" alt="" width="295px" height="298px">
+                        <a href="" class="category-products-link" aria-label="Polo with Tipping Details">Polo with
+                            Tipping Details</a>
+                        <div class="category-products-description-grade">
+                            <svg class="category-products-grade-star" width="18.5" height="18.5">
+                                <use href="/SHOP.CO/assets/icons-DgCK1EAb.svg#icon-grade-star"></use>
+                            </svg>
+                            <svg class="category-products-grade-star" width="18.5" height="18.5">
+                                <use href="/SHOP.CO/assets/icons-DgCK1EAb.svg#icon-grade-star"></use>
+                            </svg>
+                            <svg class="category-products-grade-star" width="18.5" height="18.5">
+                                <use href="/SHOP.CO/assets/icons-DgCK1EAb.svg#icon-grade-star"></use>
+                            </svg>
+                            <svg class="category-products-grade-star" width="18.5" height="18.5">
+                                <use href="/SHOP.CO/assets/icons-DgCK1EAb.svg#icon-grade-star"></use>
+                            </svg>
+                            <svg class="category-products-grade-star" width="18.5" height="18.5">
+                                <use href="/SHOP.CO/assets/icons-DgCK1EAb.svg#icon-grade-star"></use>
+                            </svg>
+                            <p class="category-products-grade-number">
+                                4.5/<span class="category-products-grade-number-grey">5</span>
+                            </p>
+                        </div>
+                        <div class="category-products-description-price">
+                            <p class="category-products-description-price-current">$180</p>
+                            <p class="category-products-description-price-old" hidden></p>
+                            <span class="category-products-description-price-sale" hidden></span>
+                        </div>
+                    </li>
+                    <li class="category-productss-body-li">
+                        <img class="category-products-img" src="" alt="" width="295px" height="298px">
+                        <a href="" class="category-products-link" aria-label="Black Striped T-shirt">Black Striped
+                            T-shirt</a>
+                        <div class="category-products-description-grade">
+                            <svg class="category-products-grade-star" width="18.5" height="18.5">
+                                <use href="/SHOP.CO/assets/icons-DgCK1EAb.svg#icon-grade-star"></use>
+                            </svg>
+                            <svg class="category-products-grade-star" width="18.5" height="18.5">
+                                <use href="/SHOP.CO/assets/icons-DgCK1EAb.svg#icon-grade-star"></use>
+                            </svg>
+                            <svg class="category-products-grade-star" width="18.5" height="18.5">
+                                <use href="/SHOP.CO/assets/icons-DgCK1EAb.svg#icon-grade-star"></use>
+                            </svg>
+                            <svg class="category-products-grade-star" width="18.5" height="18.5">
+                                <use href="/SHOP.CO/assets/icons-DgCK1EAb.svg#icon-grade-star"></use>
+                            </svg>
+                            <svg class="category-products-grade-star" width="18.5" height="18.5">
+                                <use href="/SHOP.CO/assets/icons-DgCK1EAb.svg#icon-grade-star"></use>
+                            </svg>
+                            <p class="category-products-grade-number">
+                                3.5/<span class="category-products-grade-number-grey">5</span>
+                            </p>
+                        </div>
+                        <div class="category-products-description-price">
+                            <p class="category-products-description-price-current">$120</p>
+                            <p class="category-products-description-price-old">$150</p>
+                            <span class="category-products-description-price-sale">-30%</span>
+                        </div>
+                    </li>
+                    <li class="category-productss-body-li">
+                        <img class="category-products-img" src="" alt="" width="295px" height="298px">
+                        <a href="" class="category-products-link" aria-label="Skinny Fit Jeans">Skinny Fit Jeans</a>
+                        <div class="category-products-description-grade">
+                            <svg class="category-products-grade-star" width="18.5" height="18.5">
+                                <use href="/SHOP.CO/assets/icons-DgCK1EAb.svg#icon-grade-star"></use>
+                            </svg>
+                            <svg class="category-products-grade-star" width="18.5" height="18.5">
+                                <use href="/SHOP.CO/assets/icons-DgCK1EAb.svg#icon-grade-star"></use>
+                            </svg>
+                            <svg class="category-products-grade-star" width="18.5" height="18.5">
+                                <use href="/SHOP.CO/assets/icons-DgCK1EAb.svg#icon-grade-star"></use>
+                            </svg>
+                            <svg class="category-products-grade-star" width="18.5" height="18.5">
+                                <use href="/SHOP.CO/assets/icons-DgCK1EAb.svg#icon-grade-star"></use>
+                            </svg>
+                            <svg class="category-products-grade-star" width="18.5" height="18.5">
+                                <use href="/SHOP.CO/assets/icons-DgCK1EAb.svg#icon-grade-star"></use>
+                            </svg>
+                            <p class="category-products-grade-number">
+                                3.5/<span class="category-products-grade-number-grey">5</span>
+                            </p>
+                        </div>
+                        <div class="category-products-description-price">
+                            <p class="category-products-description-price-current">$240</p>
+                            <p class="category-products-description-price-old">$260</p>
+                            <span class="category-products-description-price-sale">-20%</span>
+                        </div>
+                    </li>
+                    <li class="category-productss-body-li">
+                        <img class="category-products-img" src="" alt="" width="295px" height="298px">
+                        <a href="" class="category-products-link" aria-label="Checkered Shirt">Checkered Shirt</a>
+                        <div class="category-products-description-grade">
+                            <svg class="category-products-grade-star" width="18.5" height="18.5">
+                                <use href="/SHOP.CO/assets/icons-DgCK1EAb.svg#icon-grade-star"></use>
+                            </svg>
+                            <svg class="category-products-grade-star" width="18.5" height="18.5">
+                                <use href="/SHOP.CO/assets/icons-DgCK1EAb.svg#icon-grade-star"></use>
+                            </svg>
+                            <svg class="category-products-grade-star" width="18.5" height="18.5">
+                                <use href="/SHOP.CO/assets/icons-DgCK1EAb.svg#icon-grade-star"></use>
+                            </svg>
+                            <svg class="category-products-grade-star" width="18.5" height="18.5">
+                                <use href="/SHOP.CO/assets/icons-DgCK1EAb.svg#icon-grade-star"></use>
+                            </svg>
+                            <svg class="category-products-grade-star" width="18.5" height="18.5">
+                                <use href="/SHOP.CO/assets/icons-DgCK1EAb.svg#icon-grade-star"></use>
+                            </svg>
+                            <p class="category-products-grade-number">
+                                4.5/<span class="category-products-grade-number-grey">5</span>
+                            </p>
+                        </div>
+                        <div class="category-products-description-price">
+                            <p class="category-products-description-price-current">$180</p>
+                            <p class="category-products-description-price-old" hidden></p>
+                            <span class="category-products-description-price-sale" hidden></span>
+                        </div>
+                    </li>
+                    <li class="category-productss-body-li">
+                        <img class="category-products-img" src="" alt="" width="295px" height="298px">
+                        <a href="" class="category-products-link" aria-label="Sleeve Striped T-Shirt">Sleeve Striped
+                            T-Shirt</a>
+                        <div class="category-products-description-grade">
+                            <svg class="category-products-grade-star" width="18.5" height="18.5">
+                                <use href="/SHOP.CO/assets/icons-DgCK1EAb.svg#icon-grade-star"></use>
+                            </svg>
+                            <svg class="category-products-grade-star" width="18.5" height="18.5">
+                                <use href="/SHOP.CO/assets/icons-DgCK1EAb.svg#icon-grade-star"></use>
+                            </svg>
+                            <svg class="category-products-grade-star" width="18.5" height="18.5">
+                                <use href="/SHOP.CO/assets/icons-DgCK1EAb.svg#icon-grade-star"></use>
+                            </svg>
+                            <svg class="category-products-grade-star" width="18.5" height="18.5">
+                                <use href="/SHOP.CO/assets/icons-DgCK1EAb.svg#icon-grade-star"></use>
+                            </svg>
+                            <svg class="category-products-grade-star" width="18.5" height="18.5">
+                                <use href="/SHOP.CO/assets/icons-DgCK1EAb.svg#icon-grade-star"></use>
+                            </svg>
+                            <p class="category-products-grade-number">
+                                4.5/<span class="category-products-grade-number-grey">5</span>
+                            </p>
+                        </div>
+                        <div class="category-products-description-price">
+                            <p class="category-products-description-price-current">$130</p>
+                            <span class="category-products-description-price-sale">-30%</span>
+                        </div>
+                    </li>
+                    <li class="category-productss-body-li">
+                        <img class="category-products-img" src="" alt="" width="295px" height="298px">
+                        <a href="" class="category-products-link" aria-label="Vertical Striped Shirt">Vertical Striped
+                            Shirt</a>
+                        <div class="category-products-description-grade">
+                            <svg class="category-products-grade-star" width="18.5" height="18.5">
+                                <use href="/SHOP.CO/assets/icons-DgCK1EAb.svg#icon-grade-star"></use>
+                            </svg>
+                            <svg class="category-products-grade-star" width="18.5" height="18.5">
+                                <use href="/SHOP.CO/assets/icons-DgCK1EAb.svg#icon-grade-star"></use>
+                            </svg>
+                            <svg class="category-products-grade-star" width="18.5" height="18.5">
+                                <use href="/SHOP.CO/assets/icons-DgCK1EAb.svg#icon-grade-star"></use>
+                            </svg>
+                            <svg class="category-products-grade-star" width="18.5" height="18.5">
+                                <use href="/SHOP.CO/assets/icons-DgCK1EAb.svg#icon-grade-star"></use>
+                            </svg>
+                            <svg class="category-products-grade-star" width="18.5" height="18.5">
+                                <use href="/SHOP.CO/assets/icons-DgCK1EAb.svg#icon-grade-star"></use>
+                            </svg>
+                            <p class="category-products-grade-number">
+                                5.0/<span class="category-products-grade-number-grey">5</span>
+                            </p>
+                        </div>
+                        <div class="category-products-description-price">
+                            <p class="category-products-description-price-current">$212</p>
+                            <p class="category-products-description-price-old">$232</p>
+                            <span class="category-products-description-price-sale">-20%</span>
+                        </div>
+                    </li>
+                    <li class="category-productss-body-li">
+                        <img class="category-products-img" src="" alt="" width="295px" height="298px">
+                        <a href="" class="category-products-link" aria-label="Courage Graphic T-Shirt">Courage Graphic
+                            T-Shirt</a>
+                        <div class="category-products-description-grade">
+                            <svg class="category-products-grade-star" width="18.5" height="18.5">
+                                <use href="/SHOP.CO/assets/icons-DgCK1EAb.svg#icon-grade-star"></use>
+                            </svg>
+                            <svg class="category-products-grade-star" width="18.5" height="18.5">
+                                <use href="/SHOP.CO/assets/icons-DgCK1EAb.svg#icon-grade-star"></use>
+                            </svg>
+                            <svg class="category-products-grade-star" width="18.5" height="18.5">
+                                <use href="/SHOP.CO/assets/icons-DgCK1EAb.svg#icon-grade-star"></use>
+                            </svg>
+                            <svg class="category-products-grade-star" width="18.5" height="18.5">
+                                <use href="/SHOP.CO/assets/icons-DgCK1EAb.svg#icon-grade-star"></use>
+                            </svg>
+                            <svg class="category-products-grade-star" width="18.5" height="18.5">
+                                <use href="/SHOP.CO/assets/icons-DgCK1EAb.svg#icon-grade-star"></use>
+                            </svg>
+                            <p class="category-products-grade-number">
+                                4.0/<span class="category-products-grade-number-grey">5</span>
+                            </p>
+                        </div>
+                        <div class="category-products-description-price">
+                            <p class="category-products-description-price-current">$145</p>
+                            <p class="category-products-description-price-old" hidden></p>
+                            <span class="category-products-description-price-sale" hidden></span>
+                        </div>
+                    </li>
+                    <li class="category-productss-body-li">
+                        <img class="category-products-img" src="" alt="" width="295px" height="298px">
+                        <a href="" class="category-products-link" aria-label="Loose Fit Bermuda Shorts">Loose Fit
+                            Bermuda Shorts</a>
+                        <div class="category-products-description-grade">
+                            <svg class="category-products-grade-star" width="18.5" height="18.5">
+                                <use href="/SHOP.CO/assets/icons-DgCK1EAb.svg#icon-grade-star"></use>
+                            </svg>
+                            <svg class="category-products-grade-star" width="18.5" height="18.5">
+                                <use href="/SHOP.CO/assets/icons-DgCK1EAb.svg#icon-grade-star"></use>
+                            </svg>
+                            <svg class="category-products-grade-star" width="18.5" height="18.5">
+                                <use href="/SHOP.CO/assets/icons-DgCK1EAb.svg#icon-grade-star"></use>
+                            </svg>
+                            <svg class="category-products-grade-star" width="18.5" height="18.5">
+                                <use href="/SHOP.CO/assets/icons-DgCK1EAb.svg#icon-grade-star"></use>
+                            </svg>
+                            <svg class="category-products-grade-star" width="18.5" height="18.5">
+                                <use href="/SHOP.CO/assets/icons-DgCK1EAb.svg#icon-grade-star"></use>
+                            </svg>
+                            <p class="category-products-grade-number">
+                                3.0/<span class="category-products-grade-number-grey">5</span>
+                            </p>
+                        </div>
+                        <div class="category-products-description-price">
+                            <p class="category-products-description-price-current">$80</p>
+                            <p class="category-products-description-price-old" hidden></p>
+                            <span class="category-products-description-price-sale" hidden></span>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="category-buttons-box"><a class="category-button"><svg class="category-btn-arrows" width="12"
+                        height="12">
+                    <use href="/SHOP.CO/assets/icons-DgCK1EAb.svg#icon-left-arrow"></use>
+                    </svg> Previous
+                </a>
+                <ul class="category-button">
+                    <li class="category-btn-ul"><a href="" class="category-link-numbers">1</a></li>
+                    <li class="category-btn-ul"><a href="" class="category-link-numbers">2</a></li>
+                    <li class="category-btn-ul"><a href="" class="category-link-numbers">3</a></li>
+                    <li class="category-btn-ul"><a href="" class="category-link-numbers">...</a></li>
+                    <li class="category-btn-ul"><a href="" class="category-link-numbers">8</a></li>
+                    <li class="category-btn-ul"><a href="" class="category-link-numbers">9</a></li>
+                    <li class="category-btn-ul"><a href="" class="category-link-numbers">10</a></li>
+                </ul>
+                <a class="category-button">Next <svg class="category-btn-arrows" width="12" height="12">
+                        <use href="/SHOP.CO/assets/icons-DgCK1EAb.svg#icon-right-arrow"></use>
+                    </svg></a>
+            </div>
+        </div>
+
+    </div>
+</section>
     </main>
 
     <section class="footer">
@@ -66,7 +526,7 @@
             <form class="footer-form">
                 <label>
                     <svg class="footer-form-icon" width="20" height="16">
-                        <use href="/SHOP.CO/assets/icons-5cOdakSa.svg#icon-message"></use>
+                        <use href="/SHOP.CO/assets/icons-DgCK1EAb.svg#icon-message"></use>
                     </svg>
                     <input class="footer-input" aria-label="input for email" placeholder="Enter your email address" type="email" /></label><button
                     class="footer-button" aria-label="button for submit email" type="submit">Subscribe to Newsletter</button>
@@ -80,17 +540,17 @@
                     From women to men.</p>
                 <div class="footer-social">
                     <a class="footer-social-link" href="" aria-label="go to twitter"><svg class="footer-social-link-icon" width="11.5" height="9">
-                            <use href="/SHOP.CO/assets/icons-5cOdakSa.svg#icon-twitter"></use>
+                            <use href="/SHOP.CO/assets/icons-DgCK1EAb.svg#icon-twitter"></use>
                         </svg></a>
                     <a class="footer-social-link" href="" aria-label="go to facebook"><svg class="footer-social-link-icon" width="6.5"
                             height="12.5">
-                            <use href="/SHOP.CO/assets/icons-5cOdakSa.svg#icon-facebook"></use>
+                            <use href="/SHOP.CO/assets/icons-DgCK1EAb.svg#icon-facebook"></use>
                         </svg></a>
                     <a class="footer-social-link" href="" aria-label="go to instagram"><svg class="footer-social-link-icon" width="13" height="13">
-                            <use href="/SHOP.CO/assets/icons-5cOdakSa.svg#icon-instagram"></use>
+                            <use href="/SHOP.CO/assets/icons-DgCK1EAb.svg#icon-instagram"></use>
                         </svg></a>
                     <a class="footer-social-link" href="" aria-label="go to github"><svg class="footer-social-link-icon" width="13" height="13">
-                            <use href="/SHOP.CO/assets/icons-5cOdakSa.svg#icon-github"></use>
+                            <use href="/SHOP.CO/assets/icons-DgCK1EAb.svg#icon-github"></use>
                         </svg></a>
                 </div>
             </div>
@@ -126,19 +586,19 @@
         <div class="footer-pays-box">
             <p class="footer-logo-decription">Shop.co © 2000-2023, All Rights Reserved</p>
             <a class="footer-pay-icons" href="" aria-label="pay with visa"><svg class="footer-pay-icon" width="47" height="30">
-                    <use href="/SHOP.CO/assets/icons-5cOdakSa.svg#icon-visa"></use>
+                    <use href="/SHOP.CO/assets/icons-DgCK1EAb.svg#icon-visa"></use>
                 </svg></a>
             <a class="footer-pay-icons" href="" aria-label="pay with mastercard"><svg class="footer-pay-icon" width="47" height="30">
-                    <use href="/SHOP.CO/assets/icons-5cOdakSa.svg#icon-mastercard"></use>
+                    <use href="/SHOP.CO/assets/icons-DgCK1EAb.svg#icon-mastercard"></use>
                 </svg></a>
             <a class="footer-pay-icons" href="" aria-label="pay with paypal"><svg class="footer-pay-icon" width="47" height="30">
-                    <use href="/SHOP.CO/assets/icons-5cOdakSa.svg#icon-paypal"></use>
+                    <use href="/SHOP.CO/assets/icons-DgCK1EAb.svg#icon-paypal"></use>
                 </svg></a>
             <a class="footer-pay-icons" href="" aria-label="pay with apple pay"><svg class="footer-pay-icon" width="47" height="30">
-                    <use href="/SHOP.CO/assets/icons-5cOdakSa.svg#icon-a-pay"></use>
+                    <use href="/SHOP.CO/assets/icons-DgCK1EAb.svg#icon-a-pay"></use>
                 </svg></a>
             <a class="footer-pay-icons" href="" aria-label="pay with google pay"><svg class="footer-pay-icon" width="47" height="30">
-                    <use href="/SHOP.CO/assets/icons-5cOdakSa.svg#icon-g-pay"></use>
+                    <use href="/SHOP.CO/assets/icons-DgCK1EAb.svg#icon-g-pay"></use>
                 </svg></a>
         </div>
     </div>
