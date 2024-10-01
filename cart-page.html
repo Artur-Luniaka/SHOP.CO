@@ -34,12 +34,16 @@
             </li>
         </ul>
     </nav>
-    <label class="header-search-label">
-        <svg class="header-search-icon" width="22" height="22">
-            <use href="/SHOP.CO/assets/icons-5cOdakSa.svg#icon-loop"></use>
-        </svg>
-        <input class="header-search-input" type="text" placeholder="Search for products..."
-            name="searchField" /></label>
+    <form class="header-search-form">
+        <label class="header-search-label">
+            <button class="header-search-btn" type="submit">
+                <svg class="header-search-icon" width="22" height="22">
+                    <use href="/SHOP.CO/assets/icons-5cOdakSa.svg#icon-loop"></use>
+                </svg>
+            </button>
+            <input class="header-search-input" type="text" placeholder="Search for products..."
+                name="searchField" /></label>
+    </form>
     <svg class="header-cart-icon" width="22" height="22">
         <use href="/SHOP.CO/assets/icons-5cOdakSa.svg#icon-cart"></use>
     </svg>
@@ -49,39 +53,102 @@
 </header>
 
   <main>
-    <section>
-    <div>
-        <a href="#">Home</a>
-        <svg width="7" height="12">
+    <section class="cart-section" id="your-cart">
+    <div class="cart-nav-panel">
+        <a class="cart-nav-panel-link" href="#">Home</a>
+        <svg class="cart-nav-panel-icon" width="7" height="12">
             <use href="/SHOP.CO/assets/icons-5cOdakSa.svg#icon-arrow-right-links"></use>
         </svg>
-        <a href="#">Cart</a>
+        <a class="cart-nav-panel-link" href="#">Cart</a>
     </div>
-    <h1>Your cart</h1>
-    <div>
-        <ul>
-            <li>
-                <div></div>
-                <div>
-                    <p>Gradient Graphic T-shirt</p>
-                    <p>Size:<span>Large</span></p>
-                    <p>Color:<span>White</span></p>
-                    <p>$145</p>
+    <h1 class="cart-section-title">Your cart</h1>
+    <div class="cart-clothes-box">
+        <ul class="cart-clothes-box-list">
+            <li class="cart-clothes-box-item">
+                <div class="cart-clothes-img"></div>
+                <div class="cart-clothes-data-box">
+                    <p class="cart-clothes-data-title">Gradient Graphic T-shirt</p>
+                    <p class="cart-clothes-data">Size:<span class="cart-clothes-data-add">Large</span></p>
+                    <p class="cart-clothes-data">Color:<span class="cart-clothes-data-add">White</span></p>
+                    <p class="cart-clothes-data-price">$145</p>
                 </div>
-                <svg width="18" height="20">
+                <svg class="cart-clothes-icon-basket" width="18" height="20">
                     <use href="/SHOP.CO/assets/icons-5cOdakSa.svg#icon-basket"></use>
                 </svg>
-                <span>
-                    <svg width="16" height="2">
+                <span class="cart-clothes-quantity-box">
+                    <svg class="cart-clothes-quantity-icon" width="16" height="2">
                         <use href="/SHOP.CO/assets/icons-5cOdakSa.svg#icon-minus"></use>
                     </svg>
-                    <p>1</p>
-                    <svg width="16" height="16">
+                    <p class="cart-clothes-data-quantity">1</p>
+                    <svg class="cart-clothes-quantity-icon" width="16" height="16">
+                        <use href="/SHOP.CO/assets/icons-5cOdakSa.svg#icon-plus"></use>
+                    </svg>
+                </span>
+            </li>
+            <li class="cart-clothes-box-item">
+                <div class="cart-clothes-img"></div>
+                <div class="cart-clothes-data-box">
+                    <p class="cart-clothes-data-title">CHECKERED SHIRT</p>
+                    <p class="cart-clothes-data">Size:<span class="cart-clothes-data-add">Medium</span></p>
+                    <p class="cart-clothes-data">Color:<span class="cart-clothes-data-add">Red</span></p>
+                    <p class="cart-clothes-data-price">$180</p>
+                </div>
+                <svg class="cart-clothes-icon-basket" width="18" height="20">
+                    <use href="/SHOP.CO/assets/icons-5cOdakSa.svg#icon-basket"></use>
+                </svg>
+                <span class="cart-clothes-quantity-box">
+                    <svg class="cart-clothes-quantity-icon" width="16" height="2">
+                        <use href="/SHOP.CO/assets/icons-5cOdakSa.svg#icon-minus"></use>
+                    </svg>
+                    <p class="cart-clothes-data-quantity">1</p>
+                    <svg class="cart-clothes-quantity-icon" width="16" height="16">
+                        <use href="/SHOP.CO/assets/icons-5cOdakSa.svg#icon-plus"></use>
+                    </svg>
+                </span>
+            </li>
+            <li class="cart-clothes-box-item">
+                <div class="cart-clothes-img"></div>
+                <div class="cart-clothes-data-box">
+                    <p class="cart-clothes-data-title">SKINNY FIT JEANS</p>
+                    <p class="cart-clothes-data">Size:<span class="cart-clothes-data-add">Large</span></p>
+                    <p class="cart-clothes-data">Color:<span class="cart-clothes-data-add">Blue</span></p>
+                    <p class="cart-clothes-data-price">$240</p>
+                </div>
+                <svg class="cart-clothes-icon-basket" width="18" height="20">
+                    <use href="/SHOP.CO/assets/icons-5cOdakSa.svg#icon-basket"></use>
+                </svg>
+                <span class="cart-clothes-quantity-box">
+                    <svg class="cart-clothes-quantity-icon" width="16" height="2">
+                        <use href="/SHOP.CO/assets/icons-5cOdakSa.svg#icon-minus"></use>
+                    </svg>
+                    <p class="cart-clothes-data-quantity">1</p>
+                    <svg class="cart-clothes-quantity-icon" width="16" height="16">
                         <use href="/SHOP.CO/assets/icons-5cOdakSa.svg#icon-plus"></use>
                     </svg>
                 </span>
             </li>
         </ul>
+    </div>
+    <div class="cart-summary-box">
+        <h2 class="cart-summary-title">Order Summary</h2>
+        <ul class="cart-summary-list">
+            <li class="cart-summary-item">Subtotal<span class="cart-summary-price">$565</span></li>
+            <li class="cart-summary-item">Discount (-20%)<span class="cart-summary-price">-$113</span></li>
+            <li class="cart-summary-item">Delivery Fee<span class="cart-summary-price">$15</span></li>
+            <li class="cart-summary-item-total">Total<span class="cart-summary-price-total">$467</span></li>
+        </ul>
+        <form class="cart-summary-form">
+            <label class="cart-summary-label">
+                <svg class="cart-summary-form-icon" width="22" height="22">
+                    <use href="/SHOP.CO/assets/icons-5cOdakSa.svg#icon-ticket"></use>
+                </svg>
+                <input class="cart-summary-input" type="text" placeholder="Add promo code" name="promoCode">
+            </label>
+            <button class="cart-summary-form-btn" type="submit">Apply</button>
+        </form>
+        <button class="cart-summary-btn">Go to Checkout<svg class="cart-summary-icon" width="19" height="16">
+                <use href="/SHOP.CO/assets/icons-5cOdakSa.svg#icon-right-arrow"></use>
+            </svg></button>
     </div>
 </section>
   </main>
